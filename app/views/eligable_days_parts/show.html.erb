@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @eligable_days_part %>
+
+<div>
+  <%= link_to "Edit this eligable days parts", edit_eligable_days_part_path(@eligable_days_part) %> |
+  <%= link_to "Back to eligable days parts", eligable_days_parts_index_path %>
+
+  <%= button_to "Destroy this eligable days parts", @eligable_days_part, method: :delete %>
+</div>

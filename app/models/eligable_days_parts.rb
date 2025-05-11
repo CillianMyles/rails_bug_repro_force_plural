@@ -1,0 +1,2 @@
+class EligableDaysParts < ApplicationRecord
+end

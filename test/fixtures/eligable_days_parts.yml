@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  year: 1
+  days_per_week: 1
+  public_holidays: 1
+  unpaid_leave: 1
+  sick_days: 1
+
+two:
+  year: 1
+  days_per_week: 1
+  public_holidays: 1
+  unpaid_leave: 1
+  sick_days: 1

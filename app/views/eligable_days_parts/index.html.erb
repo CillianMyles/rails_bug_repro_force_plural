@@ -1,0 +1,16 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Eligable days parts" %>
+
+<h1>Eligable days parts</h1>
+
+<div id="eligable_days_parts">
+  <% @eligable_days_parts.each do |eligable_days_part| %>
+    <%= render eligable_days_part %>
+    <p>
+      <%= link_to "Show this eligable days parts", eligable_days_part %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New eligable days parts", new_eligable_days_part_path %>
